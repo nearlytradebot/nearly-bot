@@ -16,7 +16,7 @@ Open [@nearlytradebot](https://t.me/nearlytradebot) and send `/start`. Everythin
 
 The review screen shows the full cost and lets you change:
 
-- **Pair**: NEAR (default), USDC, USDT, NEARLY, RHEA, ZEC, KAT, BTC or ETH.
+- **Pair**: NEAR (default), NEARLY, ZEC, RHEA, KAT, USDC, USDT, BTC, ETH, GOLD, SILVER, HOOD, or a tokenized stock: NVDA, TSLA, AAPL, SPY, MSFT, META, GOOGL, AMZN, QQQ, CRCL, MRVL, AGG, IAU, TIP, TLT, INTC, SGOV. Stocks are under **📈 Stocks** in the pair picker.
 - **Tax**: 0–4% on buys and sells, split between creator, burn and holders. It can't be changed later.
 - **Links**: website, X and Telegram.
 
@@ -39,7 +39,7 @@ volume, tax, your holdings, quick-buy buttons and sell 25/50/100%.
 | `/tokens` | Newest Nearly Bot launches |
 | `/wallet` | Deposit, withdraw, unwrap wNEAR |
 | `/wallets` | Switch between your wallets, or add one |
-| `/import` | Add your own wallet by private key |
+| `/import` | Add your own wallet by private key or seed phrase |
 | `/bridge` | Bridge in or out (see [bridge.md](bridge.md)) |
 | `/name alice` | Claim `alice.nearlytradebot.near` (0.02 NEAR) |
 | `/invite` | Your invite link and earnings (see [referrals.md](referrals.md)) |
@@ -51,4 +51,6 @@ volume, tax, your holdings, quick-buy buttons and sell 25/50/100%.
 
 **Wallet → My wallets** (or `/wallets`) lists your wallets with their balances. Tap one to make it active,
 or **New wallet** to add one (up to 10). Launches, trades, bridges and withdrawals always use the active wallet.
-`/import` adds a wallet you already own as another wallet; your other wallets stay.
+`/import` adds a wallet you already own as another wallet; your other wallets stay. Send its private key
+(`ed25519:…`) or its 12/24-word seed phrase, and the bot finds the account. If the key controls more than one
+account, put the account name first: `name.near ed25519:…`. The bot deletes your message right away.

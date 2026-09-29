@@ -29,7 +29,7 @@ Name first, then `$TICKER`, then any options in any order. Attach a photo to use
 | X link | `x https://x.com/…` | Defaults to your X profile |
 | Telegram | `tg https://t.me/…` | Your community link |
 | First buy | `first buy 2` | NEAR bought at launch; NEAR pair only; up to 4% of supply |
-| Pair | `pair usdc` | NEAR (default), USDC, USDT, NEARLY, RHEA, ZEC, KAT, BTC or ETH |
+| Pair | `pair usdc`, `pair tsla` | NEAR (default), NEARLY, ZEC, RHEA, KAT, USDC, USDT, BTC, ETH, GOLD, SILVER, HOOD, or a tokenized stock: NVDA, TSLA, AAPL, SPY, MSFT, META, GOOGL, AMZN, QQQ, CRCL, MRVL, AGG, IAU, TIP, TLT, INTC, SGOV |
 | Tax | `tax 2/2` | Buy / sell tax, 0–4% each, all to you |
 | Tax split | `tax 2/2 split 50/25/25` | Creator / burn / holders, must total 100 |
 
