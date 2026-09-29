@@ -83,6 +83,7 @@ Nearly Bot deploys no contract of its own: every token is created by the nearly.
 | --- | --- |
 | Launch | **0.05 NEAR** Nearly Bot fee, plus about 0.16 NEAR of on-chain storage and gas. On Telegram launches by someone you invited, 0.01 NEAR of the fee goes to you |
 | Custom wallet name | **0.02 NEAR**, once |
+| Swap (buy or sell) | **0.5%** of the NEAR side, on the website and in the Telegram bot |
 | Bridge | **0.5%**, included in the quote |
 | Trading | The pool's 1% fee per trade, of which **0.64% goes to the token's creator** |
 
