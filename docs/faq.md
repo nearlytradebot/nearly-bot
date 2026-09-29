@@ -20,8 +20,8 @@ No. The whole supply goes into the token's Rhea pool, and the pool belongs to th
 0.64% of every trade in the token's pool, paid out automatically about hourly. An optional tax (set at launch)
 can add more.
 
-**Why doesn't @nearlytradesbot tweet every launch?**
-It announces launches made on X. Every launch, from Telegram and X, is posted in the
+**Where are launches announced?**
+Every launch, from Telegram and X, is tweeted by [@nearlytradesbot](https://x.com/nearlytradesbot), posted in the
 [launches channel](https://t.me/nearlybotlaunches) and listed on the board.
 
 **Can I use the same wallet on Telegram and X?**

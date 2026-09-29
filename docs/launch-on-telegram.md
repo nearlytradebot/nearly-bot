@@ -24,8 +24,19 @@ Shortcut: `/launch Moon Cat | MCAT` fills in the name and ticker.
 
 ## Trade
 
-Paste a token contract (`mcat.nearlytrade.near`) or a ticker (`$MCAT`) to open its panel: price, market cap,
-volume, tax, your holdings, quick-buy buttons and sell 25/50/100%.
+Paste **any NEAR token**: a contract (`mcat.nearlytrade.near`, `blackdragon.tkn.near`) or a ticker (`$MCAT`) opens
+its panel: price, your holdings, quick-buy buttons and sell 25/50/100% (plus market cap, pair, tax and creator for
+launches).
+
+- Nearly Bot and nearly.trade launches trade on **every pair**: NEAR, NEARLY, RHEA, ZEC, USDC, NVDA and the rest
+  are routed through their pair asset. A few pairs (like GOLD or TSLA) have no NEAR pool on Rhea yet; the bot
+  says so and points you to nearly.trade.
+- Every other token with a Rhea pool trades too. The bot compares Rhea's DCL pools and its classic pools
+  (through Rhea's smart router) and takes the route that pays the most, then shows which it used.
+- Tickers aren't unique. When several tokens share one, the bot lists them with their contracts so you pick the
+  right one; it never guesses.
+- Each buy or sell pays the 0.5% Nearly Bot fee. A swap refunded because the price moved past your slippage pays
+  nothing.
 
 ## Commands
 

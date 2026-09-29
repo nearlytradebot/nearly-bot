@@ -5,7 +5,7 @@
 <p align="center"><b>Launch a token with one message.</b></p>
 
 <p align="center">
-  <a href="https://nearlybot.pages.dev">Website</a> ·
+  <a href="https://nearlybot.com">Website</a> ·
   <a href="https://t.me/nearlytradebot">Telegram bot</a> ·
   <a href="https://x.com/nearlytradesbot">X bot</a> ·
   <a href="https://t.me/nearlybotlaunches">Launches channel</a> ·

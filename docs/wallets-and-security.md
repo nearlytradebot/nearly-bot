@@ -23,8 +23,10 @@ Nightly, NEAR Mobile, Ledger, MetaMask, Rabby or WalletConnect). Nearly Bot neve
 bridge and name payment is approved in your wallet.
 
 - Telegram wallets aren't linked to the website.
-- **Connect X** shows your X bot wallet's address and balance after you sign in with X. It's view only: the
-  website can't move funds from it.
+- **Connect X**: sign in with X to get your X bot wallet on the website. For 12 hours, in that browser tab
+  only, you can use it there (swap, bridge) or **export its private key** to any NEAR wallet. Only the X
+  account that owns the wallet can unlock it. Nearly Bot keeps its own copy of the key so the X bot keeps
+  working.
 
 ## What Nearly Bot can't do
 

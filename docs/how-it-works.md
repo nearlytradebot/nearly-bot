@@ -40,7 +40,7 @@ After the launch succeeds, a second transfer pays the Nearly Bot fee. A failed l
 
 ## 4. After launch
 
-- The token appears on the [board](https://nearlybot.pages.dev) right away.
+- The token appears on the [board](https://nearlybot.com) right away.
 - Once its pool is live it's posted in the [launches channel](https://t.me/nearlybotlaunches). Launches made on
   X are also announced by [@nearlytradesbot](https://x.com/nearlytradesbot).
 - Anyone can trade it immediately: in the bot, or on the website's **Swap** page with their own wallet.
@@ -48,10 +48,10 @@ After the launch succeeds, a second transfer pays the Nearly Bot fee. A failed l
 
 ## The website
 
-[nearlybot.pages.dev](https://nearlybot.pages.dev) doesn't launch tokens. It's for:
+[nearlybot.com](https://nearlybot.com) doesn't launch tokens. It's for:
 
 - **Swap**: buy and sell Nearly Bot tokens with NEAR, from any NEAR wallet (Meteor, HOT, MyNearWallet,
   Ledger, MetaMask and more).
 - **Bridge**: move about 200 assets across 30+ chains into and out of NEAR.
 - **Board, launches and stats**: every Nearly Bot launch.
-- **Connect X**: see the balance of your X bot wallet (view only).
+- **Connect X**: use your X bot wallet on the website (swap, bridge) or export its private key.

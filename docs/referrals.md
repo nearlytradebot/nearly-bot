@@ -16,4 +16,5 @@ Your friend pays the same 0.05 NEAR either way; the fee is just split.
 - Telegram bot launches only. Launches made on X don't pay referrals.
 - One inviter per user, set the first time they start the bot. You can't refer yourself.
 - Payouts go to whichever of your wallets is active at the time of each launch.
-- `/invite` shows how many people you've invited, their paid launches and your total earnings.
+- `/invite` shows how many people you've invited, their paid launches and your total earnings (to two decimals,
+  e.g. 0.03 NEAR). Each payout message also shows your running total.

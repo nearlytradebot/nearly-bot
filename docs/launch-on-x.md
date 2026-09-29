@@ -10,7 +10,8 @@ Post:
 @nearlytradesbot wallet
 ```
 
-The bot replies with your wallet address. Send it about **0.3 NEAR** (plus any first buy). Each X account has
+The bot replies with your wallet address. A new wallet isn't on NEAR until its first deposit: **you activate it by
+sending NEAR to it** (the bot's reply says so). Send about **0.3 NEAR** (plus any first buy). Each X account has
 exactly one wallet.
 
 ## 2. Post the launch
@@ -43,7 +44,7 @@ Full example:
 
 Within a couple of minutes the bot replies with your token page and announces the launch on X. It's also
 posted in the [launches channel](https://t.me/nearlybotlaunches) and listed on the
-[board](https://nearlybot.pages.dev).
+[board](https://nearlybot.com).
 
 ## Notes
 
@@ -61,4 +62,4 @@ posted in the [launches channel](https://t.me/nearlybotlaunches) and listed on t
 | `@nearlytradesbot bridge out 5 NEAR to USDC on base 0x…` | Send NEAR out as USDC on Base |
 | `@nearlytradesbot help` | The command list |
 
-On the website, **Portfolio → Connect X** shows your X wallet's address and balance (view only).
+On the website, **Portfolio → Connect X** gives you the same wallet: use it to swap and bridge there, or export its private key.

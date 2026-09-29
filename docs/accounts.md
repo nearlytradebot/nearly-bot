@@ -29,6 +29,6 @@ Nearly Bot deploys no contract of its own. Every token is created by the nearly.
 3. **Check it on [NearBlocks](https://nearblocks.io)**: open the token account to see its supply, holders and
    the launch transaction to `nearlytrade.near`.
 4. **Check it's a Nearly Bot launch.** Only launches made through the Telegram bot or X are on the
-   [board](https://nearlybot.pages.dev); each one links to its token page.
+   [board](https://nearlybot.com); each one links to its token page.
 5. **Check the fee.** The Nearly Bot fee for each launch is a plain transfer to `nearlytradebot.near`,
    visible on NearBlocks.
